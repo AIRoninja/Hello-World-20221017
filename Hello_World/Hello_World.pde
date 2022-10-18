@@ -5,8 +5,9 @@
 //Declaring Display Geometry: landscape, square, portrait
 size(700, 400); //Able to deploy with fullScreen();
 //
-Println(width, height);
-Println(displayWidth, displayHeight);
+//Concatenation; , or +
+Println("\t\t\tWidth ="+width, "\tHeight="+height);
+Println("Display Monitor:", "\tWidth:"+displayWidth,"\tHeight:"+displayHeight);
 //
 //Outputting instructions to user when errors with above
 //Bru, turn your phum
