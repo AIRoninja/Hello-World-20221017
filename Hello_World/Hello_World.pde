@@ -28,7 +28,8 @@ void setup() {
 } //End setup
 //
 void draw() {
-  ellipse(350, 200, 400, 400);
+  square(100, 0, 500);
+   ellipse(350, 200, 400, 400);
   ellipse(350, 200, 350, 350);
   ellipse(350, 200, 300, 300);
   ellipse(350, 200, 250, 250);
@@ -38,6 +39,7 @@ void draw() {
   ellipse(350, 200, 50, 50);
   ellipse(350, 200, 15, 15);
   ellipse(350, 200, 1, 1);
+
 } //End draw
 //
 void keyPressed() {
