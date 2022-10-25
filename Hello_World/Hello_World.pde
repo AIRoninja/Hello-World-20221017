@@ -1,5 +1,6 @@
 //Global Variables
 int appWidth, appHeight;
+float centerX, centerY, xStart, yStart, widthRect, heightRect;
 //
 void setup() {
   //Declaring Display Geometry: landscape, square, portrait
@@ -25,13 +26,17 @@ void setup() {
       //Empty ELSE
     }
   }
+//Poulation
+centerX = width * 1/2;
+centerY = height * 1/2;
+xStart = centerX - ( width * 1/4 );
+yStart = centerY - ( height * 1/4 );
+widthRect = width * 1/2;
+heightRect = height * 1/2;
 } //End setup
 //
 void draw() {
-  ellipse(360, 250, 150, 150);
-  ellipse(360, 140, 160, 160);
-  ellipse(300, 260, 50, 90);
-
+ rect(xStart, yStart, widthRect, hieghtRect);
 } //End draw
 //
 void keyPressed() {
