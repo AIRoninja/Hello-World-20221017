@@ -62,6 +62,24 @@ void draw() {
   //background( blackNightMode );
   strokeWeight( thick );
   rect(xStart, yStart, widthRect, heightRect);
+  
+  ellipse(250, 200, 1, 1);
+  
+  ellipse(350, 200, 1, 1);
+  ellipse(365, 210, 1, 1);
+  ellipse(365, 190, 1, 1);
+  ellipse(380, 200, 1, 1);
+  ellipse(380, 220, 1, 1);
+  ellipse(380, 180, 1, 1);
+  ellipse(400, 230, 1, 1);
+  ellipse(400, 210, 1, 1);
+  ellipse(400, 190, 1, 1);
+  ellipse(400, 170, 1, 1);
+  ellipse(420, 200, 1, 1);
+  ellipse(420, 180, 1, 1);
+  ellipse(420, 220, 1, 1);
+  ellipse(420, 240, 1, 1);
+  ellipse(420, 160, 1, 1);
   fill( white ); //default reset
   stroke( blackNightMode ); //default reset
   strokeWeight(1); //default reset
